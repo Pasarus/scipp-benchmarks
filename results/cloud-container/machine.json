@@ -1,7 +1,0 @@
-{
-    "cpu": "2 Core CPU",
-    "machine": "cloud-container",
-    "os": "Ubuntu latest",
-    "ram": "7GB",
-    "version": 1
-}
