@@ -16,7 +16,7 @@
         "warmup_time": -1
     },
     "variable.Variable.time_shallow_copy": {
-        "code": "class Variable:\n    def time_shallow_copy(self):\n        self.var1 = self.var2\n\n    def setup(self):\n        self.var1 = sc.array(dims=['x'], values=[1, 2, 3, 4, 5])\n        self.var2 = sc.array(dims=['x'], values=[1, 2, 3, 4, 5])",
+        "code": "class Variable:\n    def time_shallow_copy(self):\n        self.var1.copy(deep=False)\n\n    def setup(self):\n        self.var1 = sc.array(dims=['x'], values=[1, 2, 3, 4, 5])\n        self.var2 = sc.array(dims=['x'], values=[1, 2, 3, 4, 5])",
         "min_run_count": 2,
         "name": "variable.Variable.time_shallow_copy",
         "number": 0,
@@ -28,7 +28,7 @@
         "timeout": 60.0,
         "type": "time",
         "unit": "seconds",
-        "version": "5dcfb7b11fca4e645705bd1727b9e4ca3c7af6e55d9e17c278be3fedd0914bf4",
+        "version": "834ba6db7f3808ba6ba4c6c9675ee517874b3cede7bbc4655c0163483f650689",
         "warmup_time": -1
     },
     "variable.Variable.time_variable_inplace_operation": {
