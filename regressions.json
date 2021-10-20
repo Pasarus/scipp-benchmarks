@@ -1,1 +1,1 @@
-{"regressions": []}
+{"regressions": [["variable.Variable.time_variable_inplace_operation", "graphs/appdirs/branch-main/cmake/conan/cpu-2 Core CPU/h5py/ipykernel/ipympl/ipywidgets/machine-cloud-container/matplotlib-base/ninja/numpy/os-Ubuntu latest/pandas/pip/pytest/python/python-configuration/python-graphviz/pythreejs/pyyaml/ram-7GB/scipy/tbb/tbb-devel/xarray/variable.Variable.time_variable_inplace_operation.json", {}, null, 4.2057651345163915e-06, 3.655981080144858e-06, [[13756, 13768, 3.7164484139683423e-06, 4.2057651345163915e-06]]]]}
