@@ -1,4 +1,199 @@
 {
+    "binned.Binned1d.time_bins_concat": {
+        "code": "class Binned1d:\n    def time_bins_concat(self, nevent, nbin):\n        self.da.bins.concat('x')\n\n    def setup(self, nevent, nbin):\n        self.da = sc.data.binned_x(nevent, nbin)",
+        "min_run_count": 2,
+        "name": "binned.Binned1d.time_bins_concat",
+        "number": 0,
+        "param_names": [
+            "nevent",
+            "nbin"
+        ],
+        "params": [
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000",
+                "10000000"
+            ],
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "58c2343f62de1ac6146796595db09fec02bea13031193a0dc2db479eda0f2f16",
+        "warmup_time": -1
+    },
+    "binned.Binned1d.time_bins_constituents": {
+        "code": "class Binned1d:\n    def time_bins_constituents(self, nevent, nbin):\n        self.da.bins.constituents\n\n    def setup(self, nevent, nbin):\n        self.da = sc.data.binned_x(nevent, nbin)",
+        "min_run_count": 2,
+        "name": "binned.Binned1d.time_bins_constituents",
+        "number": 0,
+        "param_names": [
+            "nevent",
+            "nbin"
+        ],
+        "params": [
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000",
+                "10000000"
+            ],
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "750e40adcdd72cc2ba4061a49ec5082369d1e0007cf4a6fa4c0ffa95c415c3a5",
+        "warmup_time": -1
+    },
+    "binned.Binned1d.time_bins_mean": {
+        "code": "class Binned1d:\n    def time_bins_mean(self, nevent, nbin):\n        self.da.bins.sum()\n\n    def setup(self, nevent, nbin):\n        self.da = sc.data.binned_x(nevent, nbin)",
+        "min_run_count": 2,
+        "name": "binned.Binned1d.time_bins_mean",
+        "number": 0,
+        "param_names": [
+            "nevent",
+            "nbin"
+        ],
+        "params": [
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000",
+                "10000000"
+            ],
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "a4fd83ba82fac7a334c9382b83a22ef41dfbd5af0fcc407dabcbde58e122c5e1",
+        "warmup_time": -1
+    },
+    "binned.Binned1d.time_bins_size": {
+        "code": "class Binned1d:\n    def time_bins_size(self, nevent, nbin):\n        self.da.bins.size()\n\n    def setup(self, nevent, nbin):\n        self.da = sc.data.binned_x(nevent, nbin)",
+        "min_run_count": 2,
+        "name": "binned.Binned1d.time_bins_size",
+        "number": 0,
+        "param_names": [
+            "nevent",
+            "nbin"
+        ],
+        "params": [
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000",
+                "10000000"
+            ],
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "2bb7233e85b8bd6176ab5bb5bf778a5a2cffe8744976d46fc4daa774e164676d",
+        "warmup_time": -1
+    },
+    "binned.Binned1d.time_bins_sum": {
+        "code": "class Binned1d:\n    def time_bins_sum(self, nevent, nbin):\n        self.da.bins.sum()\n\n    def setup(self, nevent, nbin):\n        self.da = sc.data.binned_x(nevent, nbin)",
+        "min_run_count": 2,
+        "name": "binned.Binned1d.time_bins_sum",
+        "number": 0,
+        "param_names": [
+            "nevent",
+            "nbin"
+        ],
+        "params": [
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000",
+                "10000000"
+            ],
+            [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "10000",
+                "100000",
+                "1000000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "3998bb34213db7e17d90d3fe088ea8ac4f40755facef0382b95bd2cac9de4822",
+        "warmup_time": -1
+    },
     "variable.Variable.time_deep_copy": {
         "code": "class Variable:\n    def time_deep_copy(self):\n        self.var1.copy()\n\n    def setup(self):\n        self.var1 = sc.array(dims=['x'], values=[1, 2, 3, 4, 5])\n        self.var2 = sc.array(dims=['x'], values=[1, 2, 3, 4, 5])",
         "min_run_count": 2,
